@@ -90,3 +90,54 @@ main h1 {
   cursor: pointer;
   background-color: #7996b0;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 950px) {
+  .info-card {
+    width: 250px;
+    height: 250px;
+    gap: 5px;
+    margin-bottom: 25px;
+  }
+
+  .info-img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info-card {
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .info-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .hide {
+    width: 150px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    margin-top: 50px;
+  }
+
+  main h1 {
+    font-size: 1.2rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
